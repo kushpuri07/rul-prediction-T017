@@ -47,39 +47,19 @@ jupyter notebook notebooks/01_phase1_ml_baseline.ipynb
 ```
 In Google Colab, upload the three files to the session and run all cells. The notebook reads the files from its working directory; edit the three `read_csv` paths to `../data/...` if you run it from `notebooks/`.
 
-## Repository structure
-```
-rul-prediction-cmapss/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── data/                  # raw files go here (not committed)
-│   └── README.md
-├── notebooks/
-│   └── 01_phase1_ml_baseline.ipynb
-├── reports/
-│   ├── figures/           # exported plots for report and slides
-│   ├── phase1_report.tex  # IEEE format (to add)
-│   └── phase1_presentation.pptx
-└── docs/
-    ├── team_contributions.md
-    └── viva_prep.md
-```
 
 ## Limitations
 Fixed model settings (no tuning); window size chosen on the same engines used for model comparison; baseline length and the late threshold set by hand; test score is one cycle per engine; FD001 only.
 
 ## Team
-| Member | Roll no. | Contribution |
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+Kush Puri 
+Aadit Vachher 
+Vachan Gupta 
+Aabir Sarkar
+Kushagra Maheshwari
+
 
 ## References
-Verify each reference against the original before submission.
 - Saxena, A., and Goebel, K. (2008). Turbofan Engine Degradation Simulation Data Set. NASA Prognostics Data Repository.
 - Hochreiter, S., and Schmidhuber, J. (1997). Long Short-Term Memory. Neural Computation.
 - Breiman, L. (2001). Random Forests. Machine Learning.
